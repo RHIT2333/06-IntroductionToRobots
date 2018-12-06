@@ -38,6 +38,7 @@ def main():
                 (311.13, 250, 100), (466.16, 25, 100), (392, 700)]
 
     talker = rb.Speech('hello')
+    talker = rb.Speech('my JJ is very big')
     talker.speak()
 
 main()
